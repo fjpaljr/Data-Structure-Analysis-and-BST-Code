@@ -7,7 +7,7 @@ How did you approach the problem? Consider why data structures are important to 
 I analyzed three data structures: vector, hash table, and binary search tree. I compared their time complexity for insertion, search, and sorted output before writing any code. Data structures matter because the wrong choice can turn a fast program into a slow one as data grows. The BST was the clear choice because its in-order traversal produces alphanumerically sorted output naturally, eliminating the need for a separate sorting step altogether.
 
 How did you overcome any roadblocks you encountered while going through the activities or project?
-The biggest roadblock was handling edge cases in the input file, like trailing commas producing empty tokens during prerequisite parsing. Breaking the file loading into two passes, one to collect all course numbers for validation, and one to build the course objects is made the logic easier to reason through and debug one piece at a time.
+The biggest roadblock was handling edge cases in the input file, like trailing commas producing empty tokens during prerequisite parsing. Breaking the file loading into two passes, one to collect all course numbers for validation, and one to build the course objects is what made the logic easier to reason through and debug one piece at a time.
 
 How has your work on this project expanded your approach to designing software and developing programs?
 It reinforced the habit of thinking about data organization before writing code. Choosing a structure based on what operations the program needs most, rather than defaulting to whatever is familiar, leads to cleaner and more efficient solutions.
